@@ -7,3 +7,5 @@ class Employee:
         print("Tasks are:")
 
 class Manager(Employee):
+    def __init__(self, name, job, staff):
+        
