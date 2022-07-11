@@ -8,4 +8,4 @@ class Employee:
 
 class Manager(Employee):
     def __init__(self, name, job, staff):
-        
+        super().__init__(name, job)
