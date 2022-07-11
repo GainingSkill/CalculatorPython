@@ -5,3 +5,5 @@ class Employee:
 
     def tasks(self):
         print("Tasks are:")
+
+class Manager(Employee):
