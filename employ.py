@@ -14,3 +14,6 @@ class Manager(Employee):
     def tasks(self):
         print("Oversees:")
         print(staff)
+
+class Associate(Employee):
+    
