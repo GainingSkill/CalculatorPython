@@ -16,4 +16,5 @@ class Manager(Employee):
         print(staff)
 
 class Associate(Employee):
-    
+    def tasks(self):
+        print("Take orders from manager")
